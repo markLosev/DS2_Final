@@ -36,7 +36,7 @@ class MyThread extends Thread {
 
     public MyThread(int numberRange) {
         initArray();
-        Range = numberRange;
+        range = numberRange;
     }
 
     @Override
